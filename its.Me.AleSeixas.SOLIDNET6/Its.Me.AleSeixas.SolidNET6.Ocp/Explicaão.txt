@@ -1,0 +1,22 @@
+﻿Exemplo sem OCP
+Neste exemplo, o método CalcularDesconto dentro da classe Pedido calcula descontos com base em diferentes tipos de clientes. 
+Sempre que houver um novo tipo de cliente, seria necessário modificar o método, violando o princípio OCP.
+
+Problemas:
+Violação do OCP: Sempre que um novo tipo de cliente for adicionado, será necessário modificar o método CalcularDesconto, 
+o que pode quebrar o código existente.
+Alta Dependência: A lógica de descontos está diretamente atrelada aos tipos de clientes, dificultando a extensão
+e manutenção.
+
+Para resolver o problema, aplicamos o OCP criando uma abstração (interface) para o cálculo de descontos e permitindo que novos tipos de clientes sejam adicionados sem modificar o código original.
+
+1. Criação da Interface IDesconto
+2. Implementações específicas para cada tipo de cliente
+Agora, cada tipo de cliente tem sua própria lógica de desconto implementada em classes separadas.
+3. Modificação da Classe Pedido
+Agora, a classe Pedido depende da interface IDesconto para calcular o desconto, permitindo que novos tipos de desconto sejam adicionados sem modificar a classe.
+
+Benefícios de Aplicar o OCP
+Extensibilidade: Podemos adicionar novos tipos de clientes e regras de desconto sem modificar o código existente. Basta criar uma nova implementação da interface IDesconto.
+Redução de Riscos: Como não precisamos alterar o código existente para adicionar novas funcionalidades, há menor risco de introduzir bugs.
+Separação de Responsabilidades: Cada classe é responsável apenas por uma tarefa específica, facilitando o entendimento e a manutenção do sistema.

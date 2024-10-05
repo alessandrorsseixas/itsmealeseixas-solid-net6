@@ -1,0 +1,12 @@
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\bin\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.deps.json
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\bin\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.dll
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\bin\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.pdb
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.csproj.AssemblyReference.cache
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.AssemblyInfoInputs.cache
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.AssemblyInfo.cs
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.csproj.CoreCompileInputs.cache
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.dll
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\refint\Its.Me.AleSeixas.SolidNET6.Srp.dll
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\Its.Me.AleSeixas.SolidNET6.Srp.pdb
+D:\Git\Curso\SolidNet6\its.Me.AleSeixas.SOLIDNET6\Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\obj\Debug\net6.0\ref\Its.Me.AleSeixas.SolidNET6.Srp.dll

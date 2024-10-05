@@ -1,0 +1,24 @@
+﻿Exemplo sem LSP
+Aqui temos uma violação do LSP, pois a subclasse 
+Estudante mestrado não se comporta de maneira consistente em relação à classe base Estudante.
+
+Problema:
+O Estudante possui um método de "entregarTCC()", para um estudante de Mestrado esse método não pode ser usado. 
+Isso pode quebrar funcionalidades que esperam  resultado "entregarTCC()" , violando o LSP.
+
+Exemplo Aplicando LSP
+Agora, separamos a lógica em classes distintas para respeitar o princípio.
+
+Benefícios de Aplicar LSP
+Substituibilidade Garantida
+
+As subclasses podem ser usadas no lugar da classe base sem modificar o comportamento esperado do sistema.
+Previsibilidade
+
+O código que usa uma classe base pode esperar o mesmo comportamento ao utilizar uma subclasse, tornando o sistema mais previsível e confiável.
+Facilidade de Manutenção
+
+Como as subclasses não alteram o comportamento da classe base, evitamos efeitos colaterais indesejados, facilitando a manutenção.
+Coerência
+
+Garante que herança seja aplicada corretamente, mantendo a coerência no comportamento das classes derivadas.

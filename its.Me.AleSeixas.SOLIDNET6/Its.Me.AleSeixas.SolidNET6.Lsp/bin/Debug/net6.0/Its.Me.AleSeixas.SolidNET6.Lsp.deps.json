@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Its.Me.AleSeixas.SolidNET6.Lsp/1.0.0": {
+        "runtime": {
+          "Its.Me.AleSeixas.SolidNET6.Lsp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Its.Me.AleSeixas.SolidNET6.Lsp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

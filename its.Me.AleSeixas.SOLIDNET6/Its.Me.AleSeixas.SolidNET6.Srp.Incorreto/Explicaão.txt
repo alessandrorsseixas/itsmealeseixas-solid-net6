@@ -1,0 +1,22 @@
+﻿Exemplo Sem SRP
+Aqui, a classe Pedido é responsável por gerenciar a lógica do pedido, persistir dados e notificar o cliente. Isso viola o SRP, 
+pois a classe Pedido tem mais de uma responsabilidade.
+
+Problemas:
+Pedido está gerenciando três responsabilidades diferentes:
+Gerenciar o pedido (lógica de negócio).
+Persistir o pedido (salvar no banco de dados).
+Enviar uma confirmação (notificar o cliente).
+
+Exemplo Aplicando SRP
+Agora, refatoramos o código para que cada classe tenha apenas uma responsabilidade.
+
+1. Classe Pedido (Responsável apenas pela lógica do pedido)
+2. Classe PedidoRepository (Responsável por persistir o pedido)
+3. Classe EmailService (Responsável por enviar email de confirmação)
+
+Benefícios da Refatoração com SRP
+Coesão: Cada classe tem uma única responsabilidade. A classe Pedido apenas lida com a lógica do pedido, PedidoRepository com persistência e EmailService com envio de e-mails.
+Facilidade de Manutenção: Se houver necessidade de alterar a lógica de persistência ou o formato do e-mail, podemos modificar apenas a classe relevante, sem afetar a lógica do pedido.
+Reutilização: Agora as classes PedidoRepository e EmailService podem ser reutilizadas em outros cenários sem dependências diretas da classe Pedido.
+Esse exemplo deixa claro como aplicar SRP simplifica o design de um sistema.

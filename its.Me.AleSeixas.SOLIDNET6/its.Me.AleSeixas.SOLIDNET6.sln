@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRP-Single Responsible Principle", "SRP-Single Responsible Principle", "{D4834413-32B2-4CE3-AB18-0E80696414C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Srp.Example", "Its.Me.AleSeixas.SolidNET6.Srp.Example\Its.Me.AleSeixas.SolidNET6.Srp.Example.csproj", "{B92E290E-2F06-40F9-840D-3F1283B117F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Srp", "Its.Me.AleSeixas.SolidNET6.Srp.Incorreto\Its.Me.AleSeixas.SolidNET6.Srp.csproj", "{AF621824-FAA2-47CE-9B14-80402C41CA68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCP-Open Closed Principle", "OCP-Open Closed Principle", "{F148D075-AF09-4339-9901-8CE50A1904D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Ocp", "Its.Me.AleSeixas.SolidNET6.Ocp\Its.Me.AleSeixas.SolidNET6.Ocp.csproj", "{7B80FCC1-3639-42BF-927E-61994FAA9362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Ocp.Example", "Its.Me.AleSeixas.SolidNET6.Ocp.Example\Its.Me.AleSeixas.SolidNET6.Ocp.Example.csproj", "{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LSP-Liskov Single Principle", "LSP-Liskov Single Principle", "{4720DA53-259B-4EE6-87EB-E9C5FBD09AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Lsp", "Its.Me.AleSeixas.SolidNET6.Lsp\Its.Me.AleSeixas.SolidNET6.Lsp.csproj", "{655AE070-61D3-47BF-88AE-90146882BE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Its.Me.AleSeixas.SolidNET6.Lsp.Example", "Its.Me.AleSeixas.SolidNET6.Lsp.Example\Its.Me.AleSeixas.SolidNET6.Lsp.Example.csproj", "{7C9E64D5-DF04-4A69-B136-D5145215DCD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B92E290E-2F06-40F9-840D-3F1283B117F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92E290E-2F06-40F9-840D-3F1283B117F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92E290E-2F06-40F9-840D-3F1283B117F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92E290E-2F06-40F9-840D-3F1283B117F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF621824-FAA2-47CE-9B14-80402C41CA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF621824-FAA2-47CE-9B14-80402C41CA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF621824-FAA2-47CE-9B14-80402C41CA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF621824-FAA2-47CE-9B14-80402C41CA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B80FCC1-3639-42BF-927E-61994FAA9362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B80FCC1-3639-42BF-927E-61994FAA9362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B80FCC1-3639-42BF-927E-61994FAA9362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B80FCC1-3639-42BF-927E-61994FAA9362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655AE070-61D3-47BF-88AE-90146882BE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655AE070-61D3-47BF-88AE-90146882BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655AE070-61D3-47BF-88AE-90146882BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655AE070-61D3-47BF-88AE-90146882BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9E64D5-DF04-4A69-B136-D5145215DCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9E64D5-DF04-4A69-B136-D5145215DCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9E64D5-DF04-4A69-B136-D5145215DCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9E64D5-DF04-4A69-B136-D5145215DCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B92E290E-2F06-40F9-840D-3F1283B117F7} = {D4834413-32B2-4CE3-AB18-0E80696414C3}
+		{AF621824-FAA2-47CE-9B14-80402C41CA68} = {D4834413-32B2-4CE3-AB18-0E80696414C3}
+		{7B80FCC1-3639-42BF-927E-61994FAA9362} = {F148D075-AF09-4339-9901-8CE50A1904D0}
+		{02E59411-0C92-4CD2-AD5A-FB7DF93A2FF6} = {F148D075-AF09-4339-9901-8CE50A1904D0}
+		{655AE070-61D3-47BF-88AE-90146882BE3D} = {4720DA53-259B-4EE6-87EB-E9C5FBD09AC5}
+		{7C9E64D5-DF04-4A69-B136-D5145215DCD5} = {4720DA53-259B-4EE6-87EB-E9C5FBD09AC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0348DB1D-6709-4124-9005-BE7D86CD406E}
+	EndGlobalSection
+EndGlobal

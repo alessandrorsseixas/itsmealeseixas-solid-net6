@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Its.Me.AleSeixas.SolidNET6.Srp.Example/1.0.0": {
+        "dependencies": {
+          "Its.Me.AleSeixas.SolidNET6.Srp": "1.0.0"
+        },
+        "runtime": {
+          "Its.Me.AleSeixas.SolidNET6.Srp.Example.dll": {}
+        }
+      },
+      "Its.Me.AleSeixas.SolidNET6.Srp/1.0.0": {
+        "runtime": {
+          "Its.Me.AleSeixas.SolidNET6.Srp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Its.Me.AleSeixas.SolidNET6.Srp.Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Its.Me.AleSeixas.SolidNET6.Srp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
