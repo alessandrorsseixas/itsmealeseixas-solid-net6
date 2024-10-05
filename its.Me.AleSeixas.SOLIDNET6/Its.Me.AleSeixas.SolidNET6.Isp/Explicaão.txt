@@ -1,0 +1,30 @@
+﻿Exemplo sem ISP
+Neste exemplo, temos uma interface grande, IAcaoFuncionario, que contém métodos que nem todas as classes precisam implementar.
+
+Problema:
+Problema:
+A classe Desenvolvedor é obrigada a implementar o método GerenciarEquipe, mesmo que isso não faça sentido para sua função. 
+Isso viola o ISP, já que a classe é forçada a implementar métodos que ela não utiliza.
+
+Exemplo Aplicando LSP
+Agora, separamos a lógica em classes distintas para respeitar o princípio.
+
+Exemplo Aplicando ISP
+Agora, vamos dividir a interface grande em várias interfaces menores e mais específicas.
+
+1. Interfaces mais específicas
+2. Implementações adequadas
+
+Benefícios de Aplicar o ISP
+Interfaces Específicas
+
+Interfaces menores e mais específicas fazem com que as classes implementem apenas o que realmente precisam, evitando métodos não utilizados.
+Redução de Código Morto
+
+Evita a implementação de métodos não utilizados, reduzindo código desnecessário e facilitando a manutenção.
+Maior Flexibilidade
+
+As classes têm a liberdade de implementar apenas as interfaces relevantes, tornando o design do sistema mais flexível.
+Coesão
+
+Cada interface tem uma responsabilidade clara, melhorando a coesão e tornando o código mais fácil de entender e modificar.
